@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My ToDo</title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link rel="stylesheet" href="ToDoList.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <div class="heading">
+          <h2>To-Do List <i class="fa-solid fa-list"></i></h2>
+        </div>
+        <div class="row">
+          <input
+            type="text"
+            id="input-box"
+            placeholder="Write Your Task Here"
+          />
+          <button onclick="addTask()" id="AddButton">Add</button>
+        </div>
+        <ul id="list-container">
+            <!-- <li class="checked">jee</li>
+            <li>Task2</li>
+            <li>Task3</li> -->
+        </ul>
+      </div>
+     <script src="ToDoList.js"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
